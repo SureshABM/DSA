@@ -1,0 +1,16 @@
+KFC Ordering System
+Overview
+The KFC Ordering System is a command-line Java application that simulates a basic food ordering process at a fictional KFC restaurant. This project provides a simple yet functional interface for users to view a menu, place an order, make a payment, and receive a token number for their order.
+
+Features
+Menu Display: Lists available items with their prices.
+Order Placement: Allows users to select an item by entering its corresponding number.
+Payment Processing: Handles user payments, including calculating change and prompting for re-payment if the initial amount is insufficient.
+Order Preparation Notification: Informs the user to wait while their order is being prepared.
+Token Generation: Issues a unique token number for each order (Note: token numbers are sequential and start from 1).
+How It Works
+Display Menu: The application first shows a menu with items and their prices.
+Take Order: Users select an item by entering the corresponding number.
+Process Payment: Users are prompted to pay the amount for their selected item. If the payment is less than the price, they are asked to re-enter the payment.
+Inform User: After a successful payment, the user is informed to wait while the order is being prepared.
+Generate Bill: A unique token number is generated for the order, and a thank-you message is displayed.
